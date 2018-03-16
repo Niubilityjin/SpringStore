@@ -35,4 +35,20 @@
 			username=#{username};
   
   </select>
+  <select id="getCountByEmail" resultType="java.lang.Integer">
+  		select 
+  			count(email) 
+  		from 
+  			t_user 
+  		where 
+  			email=#{email}
+  </select>
+  <select id="getCountByPhone" resultType="java.lang.Integer">
+  		select 
+  			count(Phone) 
+  		from 
+  			t_user
+  		where 
+  			phone=#{phone}
+  </select>
   </mapper>

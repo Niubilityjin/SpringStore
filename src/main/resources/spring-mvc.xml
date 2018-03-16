@@ -25,7 +25,7 @@
    
 		<!-- 配置组件扫描 -->
 		<context:component-scan 
-			base-package="spring.store.controller" />
+			base-package="cn.tedu.store.controller" />
 			
 		<!-- 配置ViewResolver -->
 		<bean 
@@ -44,7 +44,7 @@
 	
 		<!-- 配置组件扫描 -->
 		<context:component-scan 
-			base-package="spring.store.service" />
+			base-package="cn.tedu.store.service" />
  	
 </beans>
 
